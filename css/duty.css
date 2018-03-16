@@ -1,0 +1,94 @@
+/*
+* @Author: Lenovo
+* @Date:   2018-03-12 14:10:08
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2018-03-12 15:28:40
+*/
+.ban{
+	width: 100%;
+	height: 520px;
+	min-width: 1200px;
+	background: url('../img/duty_ding01.png');
+	background-size: 100% 100%;
+	overflow: hidden;
+}
+.h_box{
+	width: 50%;
+	height: 200px;
+	margin-top: 10%;
+	margin-left: 16%;
+}
+.ban h1{
+	font-weight: 300;
+	color: white;
+	line-height: 50px;
+	font-size: 36px;
+
+}
+.ban h2{
+	font-weight: 300;
+	color: white;
+	line-height: 50px;
+	font-size: 24px;
+
+}
+.con1,.con2,.con3,.con4{
+	width: 1080px;
+
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.con1 h2,.con2 h2,.con3 h2,.con4 h2{
+	text-align: center;
+	font-weight: 500;
+
+}
+.con1 h4,.con2 h4,.con3 h4,.con4 h4{
+	text-align: center;margin-top: 20px;
+    font-weight: 200;
+
+
+}
+.line{
+	width: 120px;
+	border: 1px solid #3494ff;
+	
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.con1 p,.con2 p,.con4 p{
+	line-height: 25px;
+
+	margin-top: 50px;
+	font-size: 14px;
+	color: #747474;
+}
+.con3 p{
+	line-height: 25px;
+
+
+	font-size: 14px;
+	color: #747474;
+	margin: 15px 0;
+}
+.duty_pic{
+	width: 100%;
+	height: 387px;
+	background: url('../img/duty02.png') center center no-repeat;
+	background-size: 100% 100%;
+	margin-top: 60px;
+}
+.duty_pic2{
+	width: 100%;
+	height: 387px;
+	background: url('../img/duty03.png') center center no-repeat;
+	background-size: 100% 100%;
+	margin-top: 60px;
+}
+.duty_pic3{
+	width: 100%;
+	height: 387px;
+	background: url('../img/duty04.png') center center no-repeat;
+	background-size: 100% 100%;
+	margin-top: 60px;
+}

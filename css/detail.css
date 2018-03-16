@@ -1,0 +1,182 @@
+/*
+* @Author: Lenovo
+* @Date:   2018-03-09 13:40:24
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2018-03-09 14:44:31
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+nav{
+	width: 1180px;
+	height: 80px;
+	
+	margin: 0 auto;
+	padding: 0 30px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #dddddd;
+}
+.logo{
+	width: 130px;
+	height: 45px;
+	margin-top: 20px;
+
+}
+.logo img{
+	width: 100%;
+	height: 100%;
+}
+.nav{
+	/* width: 500px; */
+	height: 80px;
+	display: flex;
+
+
+}
+.nav li{
+	/* width: 120px; */
+	margin: 0 15px;
+	line-height: 80px;
+	height: 80px;
+}
+.nav li a{
+	/* width: 120px; */
+	color: black;
+}
+.con{
+	width: 1180px;
+	margin: 0 auto;
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+
+}
+.con_left{
+   width: 800px;
+
+   display: flex;
+   flex-flow: column;
+}
+.con_left h1{
+	font-weight: 500;
+	font-size: 24px;line-height: 40px;
+}
+.con_left p{
+	text-indent: 25px;
+	font-size: 14px;
+	color: #666;
+	line-height: 30px;
+	margin-top: 10px;
+}
+.con_left img{
+	display: block;
+	margin: 0 auto;
+}
+.con_right{
+	width: 300px;
+	display: flex;
+	flex-flow: column;
+
+}
+.con_right h4{
+	text-align: center;
+	font-weight: 500;
+	margin-top: 30px;
+
+}
+.hot_news{
+	width: 100%;
+	padding: 20px 10px;
+	
+}
+.hot_news p{
+	color: #666;
+	line-height: 30px;
+	font-size: 14px;
+
+}
+.hot_news p span{
+	display: inline-block;
+	margin-right: 10px;
+	color: #666;
+	line-height: 30px;
+	font-size: 24px;
+	
+}
+.foot{
+	width: 100%;
+	background-color: #333;
+	padding-top: 40px;
+	margin-top: 40px;
+	padding-bottom: 30px;
+
+}
+.redu{
+	width: 900px;
+	height: 200px;
+	margin: 0 auto;
+	/* color: white; */
+	display: flex;
+	justify-content: space-between;
+}
+.redu dl{}
+.redu dl dt{
+	color: white;
+	font-weight: 600;
+	font-size: 16px;
+
+
+}
+.redu dl dd{
+	color: #a09978;
+	/* margin-top: 50px; */
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #717171;
+}
+.redu dl a{
+	display: block;
+}
+.redu dl a:nth-child(2){
+
+	
+	margin-top: 30px;
+	
+}
+.redu7 dd{
+	margin-top: 30px;
+}
+.fri{
+	width: 900px;
+	margin-top: 50px;
+	margin: 0 auto;
+
+}
+.fri p{
+	color: #999;
+	margin-top: 50px;
+}
+.fri_link{
+	width: 100%;
+	/* margin: 0 auto; */
+	display: flex;
+	justify-content: space-between;
+	/* margin-top: 40px; */
+}
+.fri_link li{
+	margin-top: 30px;
+
+}
+.copy{
+	color: white;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 12px;
+
+}

@@ -1,0 +1,147 @@
+/*
+* @Author: Lenovo
+* @Date:   2018-03-09 16:21:08
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2018-03-14 16:31:41
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	text-decoration: none;
+	
+}
+nav{
+	width: 1180px;
+	height: 80px;
+	
+	margin: 0 auto;
+	padding: 0 30px;
+	display: flex !important;
+	justify-content: space-between;
+	border-bottom: 1px solid #dddddd;
+}
+.logo{
+	width: 140px;
+	height: 52px;
+	margin-top: 20px;
+
+}
+/* .logo img{
+	width: 100%;
+	height: 100%;
+} */
+nav .nav{
+	/* width: 500px; */
+	height: 80px;
+	display: flex;
+
+
+}
+.nav li{
+	/* width: 120px; */
+	margin: 0 15px;
+	line-height: 80px;
+	height: 80px;
+}
+.nav li a{
+	/* width: 120px; */
+	color: black;
+	padding: 0!important;
+	font-size: 16px;
+}
+
+
+
+.foot{
+	width: 100%;
+	background-color: #333;
+	padding-top: 40px;
+	margin-top: 40px;
+	padding-bottom: 30px;
+
+}
+.foot_line1{
+	 margin: 0 20px;
+    border-top: solid 1px #272727;
+    height: 2px;
+    background: #3e3e3e;
+    position: relative;
+    top: 34px;
+}
+.redu{
+	width: 900px;
+	height: 200px;
+	margin: 0 auto;
+	/* color: white; */
+	display: flex;
+	justify-content: space-between;
+}
+.redu dl{}
+.redu dl dt{
+	color: white;
+	font-weight: 600;
+	font-size: 16px;
+
+
+}
+.redu dl dd{
+	color: #a09978;
+	/* margin-top: 50px; */
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	color: #717171;
+}
+.redu dl a{
+	display: block;
+}
+.redu dl a:nth-child(2){
+
+	
+	margin-top: 30px;
+	
+}
+.redu7 dd{
+	margin-top: 30px;
+}
+.fri{
+	width: 900px;
+	
+	margin: 0 auto;
+	margin-top: 20px;
+	
+
+}
+.foot_line2{
+	width: 100%;
+	
+	 border-top: 1px solid #404040;
+}
+.fri p{
+	color: #999;
+	margin-top: 30px;
+}
+.fri_link{
+	width: 100%;
+	/* margin: 0 auto; */
+	display: flex;
+	justify-content: space-between;
+	/* margin-top: 40px; */
+}
+.fri_link li{
+	margin-top: 30px;
+
+}
+.copy{
+	color: white;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 12px;
+
+
+}
+.color_blue{
+	color: #5489e2 !important;
+}

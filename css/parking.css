@@ -1,0 +1,382 @@
+/*
+* @Author: Lenovo
+* @Date:   2018-03-12 16:44:48
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2018-03-14 15:56:39
+*/
+
+.ban_box{
+	width: 100%;
+	/* width: 1349px; */
+	height: 520px;
+	overflow: hidden;
+	position: relative;
+	margin: 0 auto;
+}
+.ban{
+	width: 220%;
+	height: 520px;
+	overflow: hidden;
+	color: white;
+	position: absolute;
+}
+.ban1{
+	width: 1349px;
+	height: 520px;
+	background: url('../img/parking_banner1.png') no-repeat;
+	background-size: 100% 100%;
+	margin: 0 auto;
+	float: left;
+
+}
+.ban2{
+	width: 1349px;
+	height: 520px;
+	background: url('../img/parking_banner2.png') no-repeat;
+	background-size: 100% 100%;
+	float: left;
+}
+.ban_line{
+	width: 785px;
+	border: 1px solid white;
+	margin: 0 auto;
+	margin-top: 120px;
+	margin-bottom: 30px;
+}
+.ban1 h1,.ban2 h1{
+	text-align: center;
+	font-size: 36px;
+	font-weight: 300;
+	margin: 15px 0;
+
+}
+.ban1 h3,.ban2 h3{
+	text-align: center;
+	font-size: 24px;
+	font-weight: 300;
+	margin: 15px 0;
+
+}
+.ban_line1{
+	width: 785px;
+	border: 1px solid white;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.btns{
+	width: 120px;
+	height: 30px;
+
+	position: absolute;
+	left: 50%;
+	bottom: 30px;
+	margin-left: -60px;
+
+}
+.btns>div{
+	width: 40px;
+	height: 8px;
+	border: 1px solid white;
+	background-color: transparent;
+	float: left;
+	margin: 10px;
+}
+.white{
+	background-color: white!important;
+}
+.car_title{
+	width: 100%;
+	height: 70px;
+	background-color: #f1f1f1;
+}
+.car_title_center{
+	width: 350px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.car_title_center>div{
+	float: left;
+	width: 160px;
+	text-align: center;
+	line-height: 70px;
+
+}
+.blue{
+	background-color: #1b82e2;
+
+	color: white;
+}
+.car_pic{
+	width: 100%;
+	height: 614px;
+	background: url('../img/pp1.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+.slider_box{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+
+}
+.car_sliders{
+	width: 320%;
+	overflow: hidden;
+	position: relative;
+}
+.car_sl1{
+	width:1349px;
+	height: 614px;
+	background: url('../img/parking_p2_img1.png') no-repeat;
+	background-size: 100% 100%;
+	float: left;
+
+}
+.car_sl2{
+	width:1349px;
+	height: 614px;
+	background: url('../img/parking_p2_img2.png') no-repeat;
+	background-size: 100% 100%;
+	float: left;
+	
+}
+.car_sl3{
+	width: 1349px;
+	height: 614px;
+	background: url('../img/parking_p2_img3.png') no-repeat;
+	background-size: 100% 100%;
+	float: left;
+}
+.btns1{
+	width: 180px;
+	height: 30px;
+
+	position: absolute;
+	right: 20%;
+	bottom: 30px;
+
+
+}
+.btns1>div{
+	width: 40px;
+	height: 8px;
+	border: 1px solid white;
+	background-color: transparent;
+	float: left;
+	margin: 10px;
+}
+.btns1 .white{
+	background-color: white;
+}
+.solu,.solu2{
+	width: 980px;
+	margin: 0 auto;
+	margin-top: 80px;
+
+}
+.solu_title{
+
+}
+.solu_title>h1{
+	text-align: center;
+	margin: 0 0 10px;
+	font-weight: 300;
+
+}
+.solu_title>h4{
+	text-align: center;
+	margin: 0 0 10px;
+	font-weight: 300;
+	
+}
+.line{
+	width: 120px;
+	border: 1px solid #3495ff;
+	margin: 0 auto;
+	margin-top: 20px;
+	
+}
+.solu_img{
+	width: 980px;
+	height: 500px;
+	background: url('../img/solu.jpg') no-repeat;
+	margin-top: 50px;
+	
+}
+.solu_img2{
+	width: 980px;
+	height: 500px;
+	background: url('../img/solu2.jpg') center center no-repeat;
+	background-size: contain;
+	
+	margin: 0 auto;
+	margin-top: 50px;
+	
+}
+.compar_box{
+	width: 100%;
+	background-color: #eeeeee;
+	overflow: hidden;
+
+}
+.compar{
+	width: 980px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.compar_title>h1{
+	text-align: center;
+	margin: 0 0 10px;
+	font-weight: 300;
+
+}
+.compar_title>h4{
+	text-align: center;
+	margin: 0 0 10px;
+	font-weight: 300;
+	
+}
+.compar_img3{
+	width: 980px;
+	height: 387px;
+	margin-top: 50px;
+	background: url('../img/parking_p5_img.jpg') center center no-repeat;
+	background-size: contain;
+	margin-bottom: 60px
+}
+.using{
+	width: 1140px;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+
+.using_img{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+.using_img>li{
+	width: 265px;
+	height: 156px;
+	margin: 15px 0;
+	position: relative;
+
+
+}
+.using_img>li:hover .pic_name{
+	
+
+	width: 100%;
+	height: 156px;
+	background: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	left: 0;
+	top: 0;
+
+	transform: scale(1,1);
+	transition: all 450ms ease-out 0s;	
+
+}
+.using_img>li>img{
+	width: 100%;
+	height: 100%;
+}
+.pic_name{
+
+
+	width: 1px;
+	height:1px;
+	background: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	overflow: hidden;
+/* 
+	 transform: scale(1,1);
+	 transition: all 450ms ease-out 0s; */
+
+	}
+	.pic_name>span{
+		display: block;
+		width: 180px;
+		height: 60px;
+		text-align: center;
+		line-height: 60px;
+		font-size: 18px;
+		color: white;
+		border: 1px solid white;
+		margin: 0 auto;
+		margin-top: 50px;
+		/* padding: 20px 0; */
+	}
+	.join_box{
+		width: 100%;
+		background-color: #eee;
+		padding-top: 80px;
+		padding-bottom: 40px;
+	}
+	.join{
+		width: 1140px;
+		margin: 0 auto;
+
+
+
+	}
+	.join_img{
+		width: 1140px;
+		height: 130px;
+		background: url('../img/parking_p7_img1.jpg') center center no-repeat;
+		/* background-size: 100% 100%; */
+		margin-top: 50px;
+	}
+	.form{
+		width: 505px;
+		margin: 80px auto;
+	}
+	.form li{
+		width: 100%;
+		overflow: hidden;
+	}
+	.form li>span{
+		width: 90px;
+		float: left;
+		margin-top: 22px;
+		display: inline-block;
+		text-align: right;
+		padding-right: 15px;
+		font-size: 14px;
+		color: #272727;
+
+	}
+	.li1 select{
+		width: 188px;
+		float: left;
+		line-height: 40px;
+		height: 40px;
+		margin: 10px 0;
+	}
+	.form li>input{
+	width: 400px;
+    line-height: 40px;
+    height: 40px;
+    margin: 10px 0;
+	font-size: 14px;
+	padding: 5px 10px;
+	border-radius: 5px;
+		
+	}
+	.form .button{
+		    width: 282px;
+    height: 47px;
+    background: #3494ff;
+    color: #fff;
+    line-height: 47px;
+    text-align: center;
+    margin: 20px auto;
+    cursor: pointer;
+    border-radius: 5px;
+	}
+	.foot{
+		margin-top: 0;
+	}

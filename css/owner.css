@@ -1,0 +1,383 @@
+/*
+* @Author: Lenovo
+* @Date:   2018-03-09 18:52:45
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2018-03-12 13:54:52
+*/
+.ban{
+	width: 100%;
+	min-width: 1200px;
+	height: 520px;
+	
+	background: url('../img/owners_banner.png') center center no-repeat;
+	background-size: 100% 100%;
+    position: relative;
+
+}
+.download{
+	width: 456px;
+	position: absolute;
+	left: 11%;
+	top: 22%;
+}
+.download h1{
+	color: white;
+	margin-top: 50px;
+	font-size: 50px;
+	font-weight: 500;
+
+}
+.download h3{
+	margin-top: 20px;
+	color: white;
+	font-size: 30px;
+	font-weight: 500;
+}
+.down_app{
+     width: 100%;
+     margin-top: 30px;
+
+}
+.down_ios{
+	 width: 188px;
+    height: 52px;
+    border: solid 1px #8e8c9b;
+    background: #0a0818 url("../img/owners_p1_icon.png") 20px 8px no-repeat;
+    border-radius: 8px;
+    color: #fff;
+    line-height: 52px;
+    float: left;
+    margin: 20px;
+    text-indent: 50px;
+}
+.adr{
+	 background: #0a0818 url("../img/owners_p1_icon.png") 24px -108px no-repeat;
+         width: 188px;
+    height: 52px;
+    border: solid 1px #8e8c9b;
+   
+    border-radius: 8px;
+    color: #fff;
+    line-height: 52px;
+    float: left;
+    margin: 20px;
+    text-indent: 50px;
+}
+.con{
+	width: 100%;
+	/* overflow: hidden; */
+	
+	margin: 0 auto;
+}
+.con1_box,.con3_box{
+	width: 790px;
+	height: 460px;
+	overflow: hidden;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 50px;
+
+}
+.con1,.con3{
+	width: 420%;
+	height: 460px;
+	overflow: hidden;
+	position: absolute;
+}
+.con1>div,.con3>div{
+	width: 790px;
+    height: 460px;
+    overflow: hidden;
+    float: left;
+
+}
+.find_img{
+	width: 218px;
+	height: 452px;
+	float: left;
+
+}
+.find_img img{
+	width: 100%;
+	height: 100%;
+
+}
+.find_det{
+	width: 416px;
+	float: right;
+	margin-top: 180px;
+}
+.find_det h1{
+	font-weight: 200;
+	margin-top: 20px;
+	color: #272727;
+
+
+}
+.find_det p{
+	margin-top: 30px;
+	font-size: 22px;
+	color: #b5b5b5;
+}
+.btns,.btns_2{
+	width: 416px;
+	height: 105px;
+
+	padding: 15px 0px;
+	border-bottom: 1px solid #b5b5b5;
+
+	position: absolute;
+	right: 0;
+	top: 50px;
+	overflow: hidden;
+
+}
+.btns li{
+    width: 25%;
+    height: 90px;
+   
+   
+     float: left;
+    
+
+   
+}
+.btns_2 li{
+    width: 33%;
+    height: 90px;
+   
+   
+     float: left;
+    
+
+   
+}
+.bd-bt{
+	 border-bottom: 3px solid #3494ff;
+}
+.btns li>img,.btns_2 li>img{
+	display: block;
+	/* width: 46px;
+	height: 46px; */
+	margin: 0 auto;
+}
+.btns li>p,.btns_2 li>p{
+	font-size: 12px;
+	color: #b5b5b5;
+	text-align: center;
+	margin-top: 10px; 
+	padding-bottom: 10px;
+   
+}
+
+.con2_bigbox{
+	width: 100%;
+	padding: 50px 0 50px 0;
+	background-color: #f7f7f7;
+}
+
+.con2_box{
+	width: 790px;
+	height: 460px;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 50px;
+
+}
+.con2{
+	width: 320%;
+	height: 460px;
+	overflow: hidden;
+	position: absolute;
+}
+.con2>div{
+	width: 790px;
+    height: 460px;
+    overflow: hidden;
+    float: left;
+
+}
+.car_img{
+	width: 218px;
+	height: 452px;
+	float: right;
+
+}
+.car_img img{
+	width: 100%;
+	height: 100%;
+
+}
+.car_card{
+	width: 416px;
+	float: left;
+	margin-top: 180px;
+}
+.car_card h1{
+	font-weight: 200;
+	margin-top: 20px;
+	color: #272727;
+
+
+}
+.car_card p{
+	margin-top: 30px;
+	font-size: 22px;
+	color: #b5b5b5;
+}
+.btns_1{
+	width: 300px;
+	height: 105px;
+
+	padding: 15px 0px;
+	border-bottom: 1px solid #b5b5b5;
+
+	position: absolute;
+	left: : 0;
+	top: 20px;
+	overflow: hidden;
+
+}
+.btns_1 li{
+    width: 33%;
+    height: 90px;
+   
+   
+     float: left;
+    
+
+   
+}
+
+.btns_1 li>img{
+	display: block;
+	width: 46px;
+	height: 46px;
+	margin: 0 auto;
+}
+.btns_1 li>p{
+	font-size: 12px;
+	color: #b5b5b5;
+	text-align: center;
+	margin-top: 10px; 
+	padding-bottom: 10px;
+   
+}
+.app_download{
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 100px;
+	background-color: #ededed;
+}
+.download_main{
+	width: 1010px;
+	margin: 0 auto;
+}
+.download_main h2{
+	text-align: center;
+	font-weight: 200;
+
+}
+.download_main h4{
+	text-align: center;
+	font-weight: 200;
+	margin-top: 10px
+	
+}
+.download_main>div{
+		width: 120px;
+		border: 1px solid #3494ff;
+		margin: 0 auto;
+		margin-top: 15px;
+
+	
+}
+.scan{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 80px;
+}
+.scan li{
+	width: 278px;
+	height: 278px;
+	overflow: hidden;
+	position: relative;
+}
+.jxd{
+	width: 278px;
+	height: 278px;
+
+}
+
+.hide{
+	width: 278px;
+	height: 0;
+position: absolute;
+left: 0;
+top: 0;
+}
+.scan li:hover .hide{
+	height: 278px;
+}
+.more{
+	width: 100%;
+	
+	width: 1180px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+.more h2{
+	text-align: center;
+	font-weight: 200;
+
+}
+.more h4{
+	text-align: center;
+	font-weight: 200;
+	margin-top: 10px
+	
+}
+.line{
+		width: 120px;
+		border: 1px solid #3494ff;
+		margin: 0 auto;
+		margin-top: 15px;
+
+	
+}
+.app_box{
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-around;
+}
+.app_box>div{
+    width: 80px;
+
+
+}
+.app_box>div>img{
+	display: block;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+    
+
+}
+.app_box>div>p{
+   text-align: center;
+   font-size: 12px;
+   margin-top: 15px;
+    
+
+}
+.show_pic{
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+}
